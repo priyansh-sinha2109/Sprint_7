@@ -1,5 +1,3 @@
-
-
 function ProgressBar({ currentStep, totalSteps = 3 }) {
   const percentage = (currentStep / totalSteps) * 100;
 
